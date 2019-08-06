@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D895884422F918B5001E2D8D /* UIViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895884322F918B5001E2D8D /* UIViewController_Extension.swift */; };
+		D895884622F9193E001E2D8D /* UIDevice_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895884522F9193E001E2D8D /* UIDevice_Extension.swift */; };
+		D895884822F91CF0001E2D8D /* XYZShareInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895884722F91CF0001E2D8D /* XYZShareInfo.swift */; };
+		D895884A22F92C52001E2D8D /* XYZShareItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895884922F92C52001E2D8D /* XYZShareItemCell.swift */; };
 		D8BC042C22F179CB00F8766D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC042B22F179CB00F8766D /* AppDelegate.swift */; };
 		D8BC042E22F179CB00F8766D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC042D22F179CB00F8766D /* ViewController.swift */; };
 		D8BC043122F179CB00F8766D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BC042F22F179CB00F8766D /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		D8BC043622F179CC00F8766D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BC043422F179CC00F8766D /* LaunchScreen.storyboard */; };
 		D8BC044122F179CC00F8766D /* XYZShareToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC044022F179CC00F8766D /* XYZShareToolTests.swift */; };
 		D8BC044C22F179CC00F8766D /* XYZShareToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BC044B22F179CC00F8766D /* XYZShareToolUITests.swift */; };
+		D8BF20A722F82A2F00E42D1C /* XYZShareEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF20A622F82A2F00E42D1C /* XYZShareEnum.swift */; };
+		D8BF20AA22F8553800E42D1C /* XYZShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF20A922F8553800E42D1C /* XYZShareViewController.swift */; };
+		F3625335EAC731F81E656EA6 /* libPods-XYZShareTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9718EF2AA5F3544EFE51867 /* libPods-XYZShareTool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C915E6F9F060E33294E29B /* Pods-XYZShareTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZShareTool.debug.xcconfig"; path = "Target Support Files/Pods-XYZShareTool/Pods-XYZShareTool.debug.xcconfig"; sourceTree = "<group>"; };
+		351DFBFB3A036841AFD38742 /* Pods-XYZShareTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZShareTool.release.xcconfig"; path = "Target Support Files/Pods-XYZShareTool/Pods-XYZShareTool.release.xcconfig"; sourceTree = "<group>"; };
+		D895884322F918B5001E2D8D /* UIViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extension.swift; sourceTree = "<group>"; };
+		D895884522F9193E001E2D8D /* UIDevice_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice_Extension.swift; sourceTree = "<group>"; };
+		D895884722F91CF0001E2D8D /* XYZShareInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZShareInfo.swift; sourceTree = "<group>"; };
+		D895884922F92C52001E2D8D /* XYZShareItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZShareItemCell.swift; sourceTree = "<group>"; };
 		D8BC042822F179CB00F8766D /* XYZShareTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZShareTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BC042B22F179CB00F8766D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BC042D22F179CB00F8766D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		D8BC044722F179CC00F8766D /* XYZShareToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYZShareToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BC044B22F179CC00F8766D /* XYZShareToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZShareToolUITests.swift; sourceTree = "<group>"; };
 		D8BC044D22F179CC00F8766D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BF20A622F82A2F00E42D1C /* XYZShareEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZShareEnum.swift; sourceTree = "<group>"; };
+		D8BF20A922F8553800E42D1C /* XYZShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZShareViewController.swift; sourceTree = "<group>"; };
+		D9718EF2AA5F3544EFE51867 /* libPods-XYZShareTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYZShareTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3625335EAC731F81E656EA6 /* libPods-XYZShareTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DDA318D78B291C6A2EB61B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9718EF2AA5F3544EFE51867 /* libPods-XYZShareTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A4FF4A95A919289DB86805 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34C915E6F9F060E33294E29B /* Pods-XYZShareTool.debug.xcconfig */,
+				351DFBFB3A036841AFD38742 /* Pods-XYZShareTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D8BC041F22F179CB00F8766D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				D8BC043F22F179CC00F8766D /* XYZShareToolTests */,
 				D8BC044A22F179CC00F8766D /* XYZShareToolUITests */,
 				D8BC042922F179CB00F8766D /* Products */,
+				A0A4FF4A95A919289DB86805 /* Pods */,
+				5DDA318D78B291C6A2EB61B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +133,8 @@
 		D8BC042A22F179CB00F8766D /* XYZShareTool */ = {
 			isa = PBXGroup;
 			children = (
+				D8BF20AB22F859DA00E42D1C /* Extension */,
+				D8BF20A822F830DA00E42D1C /* Share */,
 				D8BC042B22F179CB00F8766D /* AppDelegate.swift */,
 				D8BC042D22F179CB00F8766D /* ViewController.swift */,
 				D8BC042F22F179CB00F8766D /* Main.storyboard */,
@@ -125,6 +163,26 @@
 			path = XYZShareToolUITests;
 			sourceTree = "<group>";
 		};
+		D8BF20A822F830DA00E42D1C /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF20A622F82A2F00E42D1C /* XYZShareEnum.swift */,
+				D8BF20A922F8553800E42D1C /* XYZShareViewController.swift */,
+				D895884722F91CF0001E2D8D /* XYZShareInfo.swift */,
+				D895884922F92C52001E2D8D /* XYZShareItemCell.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		D8BF20AB22F859DA00E42D1C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D895884322F918B5001E2D8D /* UIViewController_Extension.swift */,
+				D895884522F9193E001E2D8D /* UIDevice_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8BC045022F179CC00F8766D /* Build configuration list for PBXNativeTarget "XYZShareTool" */;
 			buildPhases = (
+				3DFBBEBDD46F410050475EF2 /* [CP] Check Pods Manifest.lock */,
 				D8BC042422F179CB00F8766D /* Sources */,
 				D8BC042522F179CB00F8766D /* Frameworks */,
 				D8BC042622F179CB00F8766D /* Resources */,
@@ -251,13 +310,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DFBBEBDD46F410050475EF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYZShareTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8BC042422F179CB00F8766D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8BF20AA22F8553800E42D1C /* XYZShareViewController.swift in Sources */,
 				D8BC042E22F179CB00F8766D /* ViewController.swift in Sources */,
+				D8BF20A722F82A2F00E42D1C /* XYZShareEnum.swift in Sources */,
+				D895884822F91CF0001E2D8D /* XYZShareInfo.swift in Sources */,
+				D895884622F9193E001E2D8D /* UIDevice_Extension.swift in Sources */,
 				D8BC042C22F179CB00F8766D /* AppDelegate.swift in Sources */,
+				D895884A22F92C52001E2D8D /* XYZShareItemCell.swift in Sources */,
+				D895884422F918B5001E2D8D /* UIViewController_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +520,7 @@
 		};
 		D8BC045122F179CC00F8766D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C915E6F9F060E33294E29B /* Pods-XYZShareTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +538,7 @@
 		};
 		D8BC045222F179CC00F8766D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351DFBFB3A036841AFD38742 /* Pods-XYZShareTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

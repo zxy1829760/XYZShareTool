@@ -1,0 +1,6 @@
+module Pods_XYZShareTool {
+  umbrella header "Pods-XYZShareTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
